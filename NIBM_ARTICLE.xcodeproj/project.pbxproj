@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,13 @@
 		1508AA1C238964BD0097DADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1508AA1A238964BD0097DADD /* LaunchScreen.storyboard */; };
 		1508AA27238964BD0097DADD /* NIBM_ARTICLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508AA26238964BD0097DADD /* NIBM_ARTICLETests.swift */; };
 		1508AA32238964BD0097DADD /* NIBM_ARTICLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508AA31238964BD0097DADD /* NIBM_ARTICLEUITests.swift */; };
+		1508AA40238964D20097DADD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1508AA3F238964D20097DADD /* GoogleService-Info.plist */; };
+		1508AA43238966CA0097DADD /* UserLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1508AA42238966CA0097DADD /* UserLogin.storyboard */; };
+		1508AA4523896E070097DADD /* UserSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508AA4423896E070097DADD /* UserSignInViewController.swift */; };
+		1508AA4723896E1D0097DADD /* UserSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508AA4623896E1D0097DADD /* UserSignUpViewController.swift */; };
+		5B4E68711BC3703B1EEC642E /* Pods_NIBM_ARTICLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3E2257BBD4E0A866FB11D7 /* Pods_NIBM_ARTICLE.framework */; };
+		A0B5331D3279658DF34FFC53 /* Pods_NIBM_ARTICLETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C94F5DBFF59247C311DD4D /* Pods_NIBM_ARTICLETests.framework */; };
+		CEB56033DC249C329600C947 /* Pods_NIBM_ARTICLE_NIBM_ARTICLEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB273BE48BEA97606B3BE1A /* Pods_NIBM_ARTICLE_NIBM_ARTICLEUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		1508AA2D238964BD0097DADD /* NIBM_ARTICLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIBM_ARTICLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1508AA31238964BD0097DADD /* NIBM_ARTICLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_ARTICLEUITests.swift; sourceTree = "<group>"; };
 		1508AA33238964BD0097DADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1508AA3F238964D20097DADD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1508AA42238966CA0097DADD /* UserLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserLogin.storyboard; sourceTree = "<group>"; };
+		1508AA4423896E070097DADD /* UserSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignInViewController.swift; sourceTree = "<group>"; };
+		1508AA4623896E1D0097DADD /* UserSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUpViewController.swift; sourceTree = "<group>"; };
+		2027AA2E256C6C159EFB7D58 /* Pods-NIBM_ARTICLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_ARTICLE.release.xcconfig"; path = "Target Support Files/Pods-NIBM_ARTICLE/Pods-NIBM_ARTICLE.release.xcconfig"; sourceTree = "<group>"; };
+		5DB273BE48BEA97606B3BE1A /* Pods_NIBM_ARTICLE_NIBM_ARTICLEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_ARTICLE_NIBM_ARTICLEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62508AF8728F7A04FD9EB852 /* Pods-NIBM_ARTICLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_ARTICLE.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_ARTICLE/Pods-NIBM_ARTICLE.debug.xcconfig"; sourceTree = "<group>"; };
+		76C94F5DBFF59247C311DD4D /* Pods_NIBM_ARTICLETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_ARTICLETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD10E1D326D2AA11FEE97B /* Pods-NIBM_ARTICLETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_ARTICLETests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_ARTICLETests/Pods-NIBM_ARTICLETests.debug.xcconfig"; sourceTree = "<group>"; };
+		B23E2B68F39BF506BBF35188 /* Pods-NIBM_ARTICLETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_ARTICLETests.release.xcconfig"; path = "Target Support Files/Pods-NIBM_ARTICLETests/Pods-NIBM_ARTICLETests.release.xcconfig"; sourceTree = "<group>"; };
+		EEBD3678D5902559599B1680 /* Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.release.xcconfig"; path = "Target Support Files/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA98BE10E458F60B0E0A1B50 /* Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD3E2257BBD4E0A866FB11D7 /* Pods_NIBM_ARTICLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_ARTICLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4E68711BC3703B1EEC642E /* Pods_NIBM_ARTICLE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B5331D3279658DF34FFC53 /* Pods_NIBM_ARTICLETests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB56033DC249C329600C947 /* Pods_NIBM_ARTICLE_NIBM_ARTICLEUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				1508AA25238964BD0097DADD /* NIBM_ARTICLETests */,
 				1508AA30238964BD0097DADD /* NIBM_ARTICLEUITests */,
 				1508AA0A238964BC0097DADD /* Products */,
+				486DE29A7E2CEFE473021078 /* Pods */,
+				25CEA325A81C65D643C3EEAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,7 @@
 		1508AA0B238964BC0097DADD /* NIBM_ARTICLE */ = {
 			isa = PBXGroup;
 			children = (
+				1508AA41238966AB0097DADD /* Login */,
 				1508AA0C238964BC0097DADD /* AppDelegate.swift */,
 				1508AA0E238964BC0097DADD /* SceneDelegate.swift */,
 				1508AA10238964BC0097DADD /* ViewController.swift */,
@@ -108,6 +134,7 @@
 				1508AA18238964BD0097DADD /* Assets.xcassets */,
 				1508AA1A238964BD0097DADD /* LaunchScreen.storyboard */,
 				1508AA1D238964BD0097DADD /* Info.plist */,
+				1508AA3F238964D20097DADD /* GoogleService-Info.plist */,
 				1508AA15238964BC0097DADD /* NIBM_ARTICLE.xcdatamodeld */,
 			);
 			path = NIBM_ARTICLE;
@@ -131,6 +158,39 @@
 			path = NIBM_ARTICLEUITests;
 			sourceTree = "<group>";
 		};
+		1508AA41238966AB0097DADD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1508AA42238966CA0097DADD /* UserLogin.storyboard */,
+				1508AA4623896E1D0097DADD /* UserSignUpViewController.swift */,
+				1508AA4423896E070097DADD /* UserSignInViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		25CEA325A81C65D643C3EEAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD3E2257BBD4E0A866FB11D7 /* Pods_NIBM_ARTICLE.framework */,
+				5DB273BE48BEA97606B3BE1A /* Pods_NIBM_ARTICLE_NIBM_ARTICLEUITests.framework */,
+				76C94F5DBFF59247C311DD4D /* Pods_NIBM_ARTICLETests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		486DE29A7E2CEFE473021078 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62508AF8728F7A04FD9EB852 /* Pods-NIBM_ARTICLE.debug.xcconfig */,
+				2027AA2E256C6C159EFB7D58 /* Pods-NIBM_ARTICLE.release.xcconfig */,
+				FA98BE10E458F60B0E0A1B50 /* Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.debug.xcconfig */,
+				EEBD3678D5902559599B1680 /* Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.release.xcconfig */,
+				84CD10E1D326D2AA11FEE97B /* Pods-NIBM_ARTICLETests.debug.xcconfig */,
+				B23E2B68F39BF506BBF35188 /* Pods-NIBM_ARTICLETests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1508AA36238964BD0097DADD /* Build configuration list for PBXNativeTarget "NIBM_ARTICLE" */;
 			buildPhases = (
+				BE10BE80A512E99EB29314A0 /* [CP] Check Pods Manifest.lock */,
 				1508AA05238964BC0097DADD /* Sources */,
 				1508AA06238964BC0097DADD /* Frameworks */,
 				1508AA07238964BC0097DADD /* Resources */,
+				C7084784463E7089A951A340 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1508AA39238964BD0097DADD /* Build configuration list for PBXNativeTarget "NIBM_ARTICLETests" */;
 			buildPhases = (
+				E17C9EE553992D6F5BE4C97E /* [CP] Check Pods Manifest.lock */,
 				1508AA1E238964BD0097DADD /* Sources */,
 				1508AA1F238964BD0097DADD /* Frameworks */,
 				1508AA20238964BD0097DADD /* Resources */,
@@ -173,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1508AA3C238964BD0097DADD /* Build configuration list for PBXNativeTarget "NIBM_ARTICLEUITests" */;
 			buildPhases = (
+				19E61AFB18D7E1BFC7FC9E02 /* [CP] Check Pods Manifest.lock */,
 				1508AA29238964BD0097DADD /* Sources */,
 				1508AA2A238964BD0097DADD /* Frameworks */,
 				1508AA2B238964BD0097DADD /* Resources */,
+				25407ADA39955ED2530B385F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +301,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1508AA1C238964BD0097DADD /* LaunchScreen.storyboard in Resources */,
+				1508AA43238966CA0097DADD /* UserLogin.storyboard in Resources */,
+				1508AA40238964D20097DADD /* GoogleService-Info.plist in Resources */,
 				1508AA19238964BD0097DADD /* Assets.xcassets in Resources */,
 				1508AA14238964BC0097DADD /* Main.storyboard in Resources */,
 			);
@@ -257,12 +324,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19E61AFB18D7E1BFC7FC9E02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25407ADA39955ED2530B385F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests/Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE10BE80A512E99EB29314A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM_ARTICLE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7084784463E7089A951A340 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM_ARTICLE/Pods-NIBM_ARTICLE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM_ARTICLE/Pods-NIBM_ARTICLE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM_ARTICLE/Pods-NIBM_ARTICLE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17C9EE553992D6F5BE4C97E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM_ARTICLETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1508AA05238964BC0097DADD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1508AA11238964BC0097DADD /* ViewController.swift in Sources */,
+				1508AA4723896E1D0097DADD /* UserSignUpViewController.swift in Sources */,
+				1508AA4523896E070097DADD /* UserSignInViewController.swift in Sources */,
 				1508AA0D238964BC0097DADD /* AppDelegate.swift in Sources */,
 				1508AA17238964BC0097DADD /* NIBM_ARTICLE.xcdatamodeld in Sources */,
 				1508AA0F238964BC0097DADD /* SceneDelegate.swift in Sources */,
@@ -436,6 +608,7 @@
 		};
 		1508AA37238964BD0097DADD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62508AF8728F7A04FD9EB852 /* Pods-NIBM_ARTICLE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +627,7 @@
 		};
 		1508AA38238964BD0097DADD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2027AA2E256C6C159EFB7D58 /* Pods-NIBM_ARTICLE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +646,7 @@
 		};
 		1508AA3A238964BD0097DADD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CD10E1D326D2AA11FEE97B /* Pods-NIBM_ARTICLETests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +669,7 @@
 		};
 		1508AA3B238964BD0097DADD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23E2B68F39BF506BBF35188 /* Pods-NIBM_ARTICLETests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +692,7 @@
 		};
 		1508AA3D238964BD0097DADD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA98BE10E458F60B0E0A1B50 /* Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +713,7 @@
 		};
 		1508AA3E238964BD0097DADD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBD3678D5902559599B1680 /* Pods-NIBM_ARTICLE-NIBM_ARTICLEUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
