@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditPostViewController" customModule="NIBM_ARTICLE" customModuleProvider="target">
+            <connections>
+                <outlet property="imgPhoto" destination="sXE-b7-CZb" id="U3P-xp-fcc"/>
+                <outlet property="txtDescription" destination="kYf-K7-AGk" id="kCb-3c-Aqx"/>
+                <outlet property="txtTitle" destination="LkG-Jp-zzW" id="9fy-5W-rpX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1D5-FI-8sU">
+                    <rect key="frame" x="12" y="79" width="390" height="44"/>
+                    <items>
+                        <navigationItem title="Edit Post" id="son-ar-oZ1"/>
+                    </items>
+                </navigationBar>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sXE-b7-CZb">
+                    <rect key="frame" x="29" y="167" width="365" height="177"/>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LkG-Jp-zzW">
+                    <rect key="frame" x="29" y="410" width="365" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kYf-K7-AGk">
+                    <rect key="frame" x="29" y="474" width="365" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysZ-UR-jYb">
+                    <rect key="frame" x="29" y="556" width="365" height="30"/>
+                    <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Update Post">
+                        <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </state>
+                    <connections>
+                        <action selector="btnUpdateClick:" destination="-1" eventType="touchUpInside" id="Mv1-Hq-PoD"/>
+                        <action selector="imagePickerClick:" destination="-1" eventType="touchUpInside" id="Ogz-1P-fdI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vkw-nJ-vOF">
+                    <rect key="frame" x="29" y="361" width="365" height="30"/>
+                    <state key="normal" title="Change"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Vkw-nJ-vOF" firstAttribute="leading" secondItem="LkG-Jp-zzW" secondAttribute="leading" id="6XL-b6-5ro"/>
+                <constraint firstItem="sXE-b7-CZb" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="AhU-ec-Lfb"/>
+                <constraint firstItem="sXE-b7-CZb" firstAttribute="top" secondItem="1D5-FI-8sU" secondAttribute="bottom" constant="44" id="KVM-ev-bXF"/>
+                <constraint firstItem="sXE-b7-CZb" firstAttribute="leading" secondItem="Vkw-nJ-vOF" secondAttribute="leading" id="M3K-RB-hph"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ysZ-UR-jYb" secondAttribute="bottom" constant="276" id="Nft-pX-Mxn"/>
+                <constraint firstItem="LkG-Jp-zzW" firstAttribute="leading" secondItem="kYf-K7-AGk" secondAttribute="leading" id="R0d-Op-OCm"/>
+                <constraint firstItem="1D5-FI-8sU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="35" id="R6C-YN-paT"/>
+                <constraint firstItem="Vkw-nJ-vOF" firstAttribute="top" secondItem="sXE-b7-CZb" secondAttribute="bottom" constant="17" id="RWp-ED-rT8"/>
+                <constraint firstItem="kYf-K7-AGk" firstAttribute="trailing" secondItem="ysZ-UR-jYb" secondAttribute="trailing" id="Sa7-Wi-DhP"/>
+                <constraint firstItem="kYf-K7-AGk" firstAttribute="leading" secondItem="ysZ-UR-jYb" secondAttribute="leading" id="WMS-Y3-SYU"/>
+                <constraint firstItem="ysZ-UR-jYb" firstAttribute="top" secondItem="kYf-K7-AGk" secondAttribute="bottom" constant="48" id="aRp-ZH-dZ5"/>
+                <constraint firstItem="sXE-b7-CZb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="29" id="b6i-Nf-xoc"/>
+                <constraint firstItem="Vkw-nJ-vOF" firstAttribute="trailing" secondItem="LkG-Jp-zzW" secondAttribute="trailing" id="c92-6V-MK0"/>
+                <constraint firstItem="1D5-FI-8sU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kt5-76-S7J"/>
+                <constraint firstItem="sXE-b7-CZb" firstAttribute="trailing" secondItem="Vkw-nJ-vOF" secondAttribute="trailing" id="n99-xZ-3wW"/>
+                <constraint firstItem="kYf-K7-AGk" firstAttribute="top" secondItem="LkG-Jp-zzW" secondAttribute="bottom" constant="30" id="wfc-ah-RL0"/>
+                <constraint firstItem="LkG-Jp-zzW" firstAttribute="trailing" secondItem="kYf-K7-AGk" secondAttribute="trailing" id="x4x-d9-Tt6"/>
+                <constraint firstItem="LkG-Jp-zzW" firstAttribute="top" secondItem="Vkw-nJ-vOF" secondAttribute="bottom" constant="19" id="xgq-px-GbR"/>
+                <constraint firstItem="1D5-FI-8sU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="y1x-PH-tbU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="133"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8599F73B-3F73-4CEC-AF5E-1632D39F1753"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BCF43E4-3746-46BB-8DB1-A883DE9DBB05"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NIBM_ARTICLE/EditPostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "EditPostViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3E95F61-0EEA-4DD2-AF4D-CB9A50D254BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NIBM_ARTICLE/EditPostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "EditPostViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A3E95F61-0EEA-4DD2-AF4D-CB9A50D254BD - 4081c2884af2a2bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; NIBM_ARTICLE.EditPostViewController"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "A3E95F61-0EEA-4DD2-AF4D-CB9A50D254BD - c630dfac19399ad5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; NIBM_ARTICLE.EditPostViewController"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "A3E95F61-0EEA-4DD2-AF4D-CB9A50D254BD - 6637904b09ce7733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NIBM_ARTICLE.EditPostViewController&gt;"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "A3E95F61-0EEA-4DD2-AF4D-CB9A50D254BD - a1570507f749973f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NIBM_ARTICLE.EditPostViewController&gt;"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  uuid = "A3E95F61-0EEA-4DD2-AF4D-CB9A50D254BD - 950f042ff99ad947"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.__deallocating_deinit"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76F6DE2F-8A6B-4B07-BD93-7F665C288559"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NIBM_ARTICLE/EditPostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "EditPostViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "76F6DE2F-8A6B-4B07-BD93-7F665C288559 - 751c5d6fad154915"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.imagePicker.getter : Swift.Optional&lt;NIBM_ARTICLE.ImagePicker&gt;"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "76F6DE2F-8A6B-4B07-BD93-7F665C288559 - 2a7ef37ed922e531"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.imagePicker.setter : Swift.Optional&lt;NIBM_ARTICLE.ImagePicker&gt;"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "76F6DE2F-8A6B-4B07-BD93-7F665C288559 - 84974a854906d602"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.imagePicker.modify : Swift.Optional&lt;NIBM_ARTICLE.ImagePicker&gt;"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "76F6DE2F-8A6B-4B07-BD93-7F665C288559 - 3dc0d425d6ad24fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.imagePicker.modify : Swift.Optional&lt;NIBM_ARTICLE.ImagePicker&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "76F6DE2F-8A6B-4B07-BD93-7F665C288559 - c630dfac19399ad5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; NIBM_ARTICLE.EditPostViewController"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "76F6DE2F-8A6B-4B07-BD93-7F665C288559 - a1570507f749973f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NIBM_ARTICLE.EditPostViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NIBM_ARTICLE.EditPostViewController&gt;"
+                  moduleName = "NIBM_ARTICLE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bagya/Desktop/DThanthriwaththa/NIBM_ARTICLE/NIBM_ARTICLE/EditPostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
